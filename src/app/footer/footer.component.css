@@ -1,0 +1,66 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    width: 99%;
+    height: 250px;
+    border-radius: 10px;
+    bottom: 0;
+}
+
+.logo {
+
+    width: 200px;
+
+}
+
+.direitos {
+
+    width: 30px;
+    height: 20px;
+    margin-right: -5px;
+    margin-top: -20px;
+
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        margin: 0%;
+
+
+
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+
+
+
+
+
+    }
+
+}
